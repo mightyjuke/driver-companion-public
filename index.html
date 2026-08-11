@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RoadCue — Direction-aware camera alerts for Canada</title>
+    <meta
+      name="description"
+      content="RoadCue gives quiet, direction-aware red-light and speed-camera warnings across Canada, on-device and alongside the driving apps you already use."
+    />
+    <meta name="theme-color" content="#0d1214" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://mightyjuke.github.io/driver-companion-public/" />
+    <link rel="icon" href="assets/roadcue-icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/roadcue-icon-192.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="preload" href="assets/oswald-700.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="assets/inter-regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:site_name" content="RoadCue" />
+    <meta property="og:title" content="RoadCue — Know what’s ahead. Ignore what’s behind." />
+    <meta
+      property="og:description"
+      content="A privacy-friendly camera-warning companion built for Canadian roads."
+    />
+    <meta property="og:url" content="https://mightyjuke.github.io/driver-companion-public/" />
+    <meta property="og:image" content="https://mightyjuke.github.io/driver-companion-public/assets/og-roadcue.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="RoadCue direction-aware camera alert interface" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RoadCue — Direction-aware camera alerts" />
+    <meta
+      name="twitter:description"
+      content="Quiet camera awareness for Canadian roads, processed on your device."
+    />
+    <meta name="twitter:image" content="https://mightyjuke.github.io/driver-companion-public/assets/og-roadcue.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "RoadCue",
+        "alternateName": "RoadCue Canada: Camera Alerts",
+        "applicationCategory": "NavigationApplication",
+        "operatingSystem": "iOS, Android",
+        "description": "A direction-aware red-light and speed-camera warning companion for Canadian drivers.",
+        "url": "https://mightyjuke.github.io/driver-companion-public/",
+        "image": "https://mightyjuke.github.io/driver-companion-public/assets/roadcue-icon-512.png",
+        "featureList": [
+          "Direction-aware camera alerts",
+          "Background audio warnings",
+          "On-device detection",
+          "No account, advertising, or analytics",
+          "Nine interface languages"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!--
+      THESIS: Direction is the product. The page makes the approach corridor tangible instead of using a generic app hero.
+      OWN-WORLD: Matte charcoal instrument field, bone lettering, engineered rules, signal red, and one amber active state.
+      STORY: See the route test, understand the on-device system, verify coverage limits, then follow the launch.
+      FIRST VIEWPORT: A monumental claim and launch action sit beside a live 400 m approach instrument with the product UI nested inside it.
+      FORM: Approach corridor, sixth grounded structure; surface seed 354bf5ec.
+      FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+    -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="RoadCue home">
+        <img src="assets/roadcue-icon-192.png" width="36" height="36" alt="" />
+        <span>ROADCUE</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#coverage">Coverage</a>
+      </nav>
+      <a class="header-cta" href="#launch">Get RoadCue <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3h10v10M13 3 3 13" /></svg></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">KNOW WHAT’S AHEAD.<br /><span>IGNORE WHAT’S BEHIND.</span></h1>
+          <p class="hero-intro">
+            RoadCue is a direction-aware red-light and speed-camera companion built for Canadian roads. It runs quietly beside your navigation, rideshare, or delivery app.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#launch">
+              <span>App Store launch</span>
+              <small>Canada · coming soon</small>
+            </a>
+            <a class="text-link" href="#how-it-works">See the signal logic <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M3 9l5 5 5-5" /></svg></a>
+          </div>
+          <dl class="hero-facts" aria-label="RoadCue highlights">
+            <div><dt>914</dt><dd>reviewed camera records</dd></div>
+            <div><dt>9</dt><dd>interface languages</dd></div>
+            <div><dt>0</dt><dd>accounts or ads</dd></div>
+          </dl>
+        </div>
+
+        <div class="approach-rig" aria-label="Illustration of RoadCue evaluating an approaching camera">
+          <div class="rig-chrome" aria-hidden="true">
+            <span>ILLUSTRATIVE ROUTE MODEL</span>
+            <span>DEMO COORDINATES / SYNTHETIC</span>
+          </div>
+          <div class="route-field" data-route-field>
+            <svg class="route-map" viewBox="0 0 640 760" role="img" aria-label="A route approaching an intersection camera">
+              <defs>
+                <pattern id="minor-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                  <path d="M 32 0 L 0 0 0 32" fill="none" stroke="currentColor" stroke-width="0.6" />
+                </pattern>
+              </defs>
+              <rect width="640" height="760" fill="url(#minor-grid)" class="map-grid" />
+              <path class="road-secondary" d="M35 178 H605" />
+              <path class="road-main" d="M322 742 C320 610 310 520 315 420 C320 314 343 229 348 20" />
+              <path class="route-active" d="M322 742 C320 610 310 520 315 420 C320 314 343 229 348 20" />
+              <path class="projection" d="M318 490 C320 364 335 273 346 185" />
+              <g class="camera-node" transform="translate(347 179)">
+                <circle r="48" class="camera-range" />
+                <circle r="14" class="camera-core" />
+                <path d="M-22,-28 A36,36 0 0 1 30,12" class="camera-arc" />
+                <path d="M-34,-43 A55,55 0 0 1 45,18" class="camera-arc camera-arc-outer" />
+              </g>
+              <g class="vehicle-marker" data-vehicle-marker transform="translate(322 610)">
+                <path d="M0 -16 L12 13 L0 8 L-12 13 Z" />
+                <circle r="26" />
+              </g>
+            </svg>
+
+            <div class="distance-readout" aria-live="off">
+              <span class="distance-value" data-distance>337</span><span class="distance-unit">m</span>
+              <span class="distance-rule"></span>
+              <strong>KINGSWAY &amp;<br />BOUNDARY ROAD</strong>
+              <small>RED LIGHT + SPEED CAMERA</small>
+            </div>
+
+            <div class="status-chip"><span></span> Monitoring · GPS + background</div>
+
+            <div class="phone-readout" aria-hidden="true">
+              <div class="phone-top"><span>ROADCUE</span><small>09:41</small></div>
+              <div class="phone-status"><i></i> CAMERA AHEAD</div>
+              <div class="phone-distance"><strong data-phone-distance>337</strong><span>m</span></div>
+              <div class="phone-location">KINGSWAY &amp;<br />BOUNDARY ROAD</div>
+              <div class="phone-metrics"><span>50<small> km/h</small></span><span>E<small> heading</small></span></div>
+              <div class="phone-action">STOP DRIVING</div>
+            </div>
+          </div>
+          <div class="rig-footer" aria-hidden="true">
+            <span>DIR 084°</span><span>SPEED 50 KM/H</span><span>CONFIDENCE: CLOSING</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="mechanism" id="how-it-works" aria-labelledby="mechanism-title">
+        <div class="section-heading">
+          <h2 id="mechanism-title">THE ALERT STARTS<br />WITH A VECTOR.</h2>
+          <p>
+            A nearby camera is not enough. RoadCue checks whether your movement is actually closing on the intersection corridor before it speaks.
+          </p>
+        </div>
+
+        <div class="vector-console" data-vector-console>
+          <div class="console-visual" aria-hidden="true">
+            <div class="console-track">
+              <span class="track-road"></span>
+              <span class="track-camera"><i></i></span>
+              <span class="track-car" data-track-car></span>
+              <span class="track-sweep" data-track-sweep></span>
+            </div>
+            <div class="console-distance"><strong data-console-distance>400</strong><span>metres</span></div>
+          </div>
+          <div class="console-steps" role="group" aria-label="Route evaluation stages">
+            <button class="console-step is-active" type="button" data-step="0" aria-pressed="true">
+              <span>Approach</span><strong>Find nearby records</strong><small>Local camera data is checked against your current position.</small>
+            </button>
+            <button class="console-step" type="button" data-step="1" aria-pressed="false">
+              <span>Align</span><strong>Test the route vector</strong><small>Cameras behind you and most parallel-road passes are rejected.</small>
+            </button>
+            <button class="console-step" type="button" data-step="2" aria-pressed="false">
+              <span>Warn</span><strong>Speak at your chosen distance</strong><small>Audio stays useful while another driving app is in front.</small>
+            </button>
+            <button class="console-step" type="button" data-step="3" aria-pressed="false">
+              <span>Clear</span><strong>Confirm the crossing</strong><small>A chime sounds after the intersection and the passed camera clears.</small>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="companion" aria-labelledby="companion-title">
+        <div class="app-stage">
+          <div class="app-stage-label"><span>DRIVING MODE</span><span>BACKGROUND ACTIVE</span></div>
+          <div class="app-screen">
+            <div class="app-screen-head"><strong>ROADCUE</strong><span>CANADA CAMERA ALERTS</span></div>
+            <div class="app-monitor"><i></i> MONITORING · GPS + BACKGROUND</div>
+            <div class="app-hazard">
+              <span class="hazard-icon" aria-hidden="true"><b></b><i></i><em></em></span>
+              <div><strong>337<small>m</small></strong><b>KINGSWAY &amp;<br />BOUNDARY ROAD</b><span>RED LIGHT + SPEED CAMERA</span></div>
+            </div>
+            <div class="app-rule"></div>
+            <div class="app-speed"><strong>50<small> km/h<br />speed</small></strong><strong>E<small> east<br />heading</small></strong></div>
+            <div class="app-rule"></div>
+            <div class="app-meta"><span>Last alert — none</span><span>914 records loaded</span></div>
+            <div class="app-stop">STOP DRIVING</div>
+            <small class="app-safety">Audio alerts run in the background. Keep your attention on the road.</small>
+          </div>
+        </div>
+
+        <div class="companion-copy">
+          <h2 id="companion-title">STAYS IN ITS LANE.</h2>
+          <p class="large-copy">
+            RoadCue is not another map to manage. Start driving once, then keep the app you already rely on in front.
+          </p>
+          <ul class="feature-lines">
+            <li><span>Background audio</span><p>Hear the relevant warning while navigation, delivery, or rideshare stays open.</p></li>
+            <li><span>One-tap driving mode</span><p>A glanceable status, live speed and heading, and one primary action.</p></li>
+            <li><span>Flexible warning distance</span><p>Choose when the first spoken alert plays; the final approach tone stays fixed.</p></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="privacy" id="privacy" aria-labelledby="privacy-title">
+        <div class="privacy-copy">
+          <h2 id="privacy-title">YOUR ROUTE<br />STAYS YOURS.</h2>
+          <p>
+            Camera matching happens on your phone against a bundled location snapshot. RoadCue does not need an account, ad profile, or analytics pipeline to do its job.
+          </p>
+          <div class="zero-list" aria-label="RoadCue privacy commitments">
+            <span><strong>NO</strong> account</span>
+            <span><strong>NO</strong> advertising</span>
+            <span><strong>NO</strong> analytics</span>
+            <span><strong>NO</strong> subscription</span>
+          </div>
+        </div>
+
+        <div class="privacy-diagram" aria-label="Diagram showing route detection contained on the phone">
+          <div class="device-core">
+            <img src="assets/roadcue-icon-192.png" width="80" height="80" alt="RoadCue icon" />
+            <strong>ON-DEVICE<br />DETECTION</strong>
+            <small>GPS → vector test → audio cue</small>
+          </div>
+          <div class="blocked-node node-account"><span>ACCOUNT</span><i></i></div>
+          <div class="blocked-node node-ads"><span>AD PROFILE</span><i></i></div>
+          <div class="blocked-node node-cloud"><span>ROUTE CLOUD</span><i></i></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        </div>
+      </section>
+
+      <section class="coverage" id="coverage" aria-labelledby="coverage-title">
+        <div class="coverage-number"><strong>914</strong><span>reviewed records<br />in the current snapshot</span></div>
+        <div class="coverage-copy">
+          <h2 id="coverage-title">CANADIAN SOURCES.<br />HONEST LIMITS.</h2>
+          <p>
+            RoadCue’s build-time database is assembled from reviewed provincial and municipal sources. Coverage depends on what each jurisdiction publishes and is not complete or live-updated everywhere.
+          </p>
+          <div class="province-track" aria-label="Camera types and regional source coverage">
+            <span>B.C.</span><span>ALBERTA</span><span>PRAIRIES</span><span>ONTARIO</span><span>ATLANTIC</span>
+          </div>
+          <details>
+            <summary>What RoadCue does not claim <svg class="summary-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h12" /><path d="M8 2v12" /></svg></summary>
+            <p>
+              RoadCue does not detect radar signals, police activity, mobile photo-radar units, or guarantee that every fixed camera is listed. It is not a government app. Always follow posted signs and traffic laws.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="languages" aria-labelledby="languages-title">
+        <h2 id="languages-title">SPEAKS THE DRIVER’S LANGUAGE.</h2>
+        <p>Interface and spoken camera guidance are available in nine languages.</p>
+        <div class="language-marquee" aria-label="Supported languages">
+          <span>English</span><span>Français</span><span>ਪੰਜਾਬੀ</span><span>简体中文</span><span>繁體中文</span><span>Español</span><span>Tagalog</span><span>العربية</span><span>हिन्दी</span>
+        </div>
+      </section>
+
+      <section class="launch" id="launch" aria-labelledby="launch-title">
+        <div>
+          <h2 id="launch-title">READY WHEN<br />THE ROAD IS.</h2>
+          <p>RoadCue is preparing for its Canadian App Store launch. Follow the project for release updates.</p>
+        </div>
+        <div class="launch-actions">
+          <span class="launch-pending" aria-label="App Store release coming soon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.7 13.3c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.7-1.7-3.3-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3.1-.7 1.4 0 1.8.7 3.1.7 1.3 0 2.1-1.1 2.9-2.3.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.9-1.1-2.9-3.8ZM14.4 6.7c.6-.8 1.1-1.9 1-3-.9 0-2.1.6-2.8 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2.1-.5 2.8-1.3Z" /></svg>
+            <span><small>COMING SOON TO THE</small>App Store</span>
+          </span>
+          <a class="github-link" href="https://github.com/mightyjuke/driver-companion-public">Follow on GitHub <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" /></svg></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top"><img src="assets/roadcue-icon-192.png" width="32" height="32" alt="" /><span>ROADCUE</span></a>
+      <p>Quiet camera awareness for Canadian roads.</p>
+      <div><a href="#privacy">Privacy</a><a href="#coverage">Coverage</a><span>© <span data-year></span> RoadCue</span></div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

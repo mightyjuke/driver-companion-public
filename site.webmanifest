@@ -1,0 +1,13 @@
+{
+  "name": "RoadCue",
+  "short_name": "RoadCue",
+  "description": "Direction-aware camera alerts for Canadian roads.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#0d1214",
+  "theme_color": "#0d1214",
+  "icons": [
+    { "src": "assets/roadcue-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/roadcue-icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

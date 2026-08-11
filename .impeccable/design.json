@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-11T05:32:07Z",
+  "title": "Design System: RoadCue",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Matte Charcoal",
+        "canonical": "#0d1214",
+        "tonalRamp": ["oklch(15% 0.012 210)", "oklch(25% 0.012 210)", "oklch(36% 0.012 210)", "oklch(48% 0.012 210)", "oklch(60% 0.012 210)", "oklch(72% 0.012 210)", "oklch(84% 0.012 210)", "oklch(95% 0.012 210)"]
+      },
+      "canvas-raised": {
+        "role": "neutral",
+        "displayName": "Raised Charcoal",
+        "canonical": "#141a1d",
+        "tonalRamp": ["oklch(15% 0.014 210)", "oklch(25% 0.014 210)", "oklch(36% 0.014 210)", "oklch(48% 0.014 210)", "oklch(60% 0.014 210)", "oklch(72% 0.014 210)", "oklch(84% 0.014 210)", "oklch(95% 0.014 210)"]
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "canonical": "#f4f0e5",
+        "tonalRamp": ["oklch(15% 0.018 92)", "oklch(25% 0.018 92)", "oklch(36% 0.018 92)", "oklch(48% 0.018 92)", "oklch(60% 0.018 92)", "oklch(72% 0.018 92)", "oklch(84% 0.018 92)", "oklch(95% 0.018 92)"]
+      },
+      "bone-muted": {
+        "role": "neutral",
+        "displayName": "Weathered Bone",
+        "canonical": "#b9b4a8",
+        "tonalRamp": ["oklch(15% 0.017 84)", "oklch(25% 0.017 84)", "oklch(36% 0.017 84)", "oklch(48% 0.017 84)", "oklch(60% 0.017 84)", "oklch(72% 0.017 84)", "oklch(84% 0.017 84)", "oklch(95% 0.017 84)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Bone Rule",
+        "canonical": "rgba(244, 240, 229, 0.68)",
+        "tonalRamp": ["oklch(15% 0.018 92 / .68)", "oklch(25% 0.018 92 / .68)", "oklch(36% 0.018 92 / .68)", "oklch(48% 0.018 92 / .68)", "oklch(60% 0.018 92 / .68)", "oklch(72% 0.018 92 / .68)", "oklch(84% 0.018 92 / .68)", "oklch(95% 0.018 92 / .68)"]
+      },
+      "line-muted": {
+        "role": "neutral",
+        "displayName": "Muted Bone Rule",
+        "canonical": "rgba(244, 240, 229, 0.16)",
+        "tonalRamp": ["oklch(15% 0.018 92 / .16)", "oklch(25% 0.018 92 / .16)", "oklch(36% 0.018 92 / .16)", "oklch(48% 0.018 92 / .16)", "oklch(60% 0.018 92 / .16)", "oklch(72% 0.018 92 / .16)", "oklch(84% 0.018 92 / .16)", "oklch(95% 0.018 92 / .16)"]
+      },
+      "signal-red": {
+        "role": "primary",
+        "displayName": "Signal Red",
+        "canonical": "#f04432",
+        "tonalRamp": ["oklch(15% 0.21 29)", "oklch(25% 0.21 29)", "oklch(36% 0.21 29)", "oklch(48% 0.21 29)", "oklch(60% 0.21 29)", "oklch(72% 0.21 29)", "oklch(84% 0.16 29)", "oklch(95% 0.07 29)"]
+      },
+      "signal-red-dark": {
+        "role": "primary",
+        "displayName": "Deep Signal Red",
+        "canonical": "#c92e21",
+        "tonalRamp": ["oklch(15% 0.19 29)", "oklch(25% 0.19 29)", "oklch(36% 0.19 29)", "oklch(48% 0.19 29)", "oklch(60% 0.19 29)", "oklch(72% 0.19 29)", "oklch(84% 0.14 29)", "oklch(95% 0.06 29)"]
+      },
+      "active-amber": {
+        "role": "secondary",
+        "displayName": "Active Amber",
+        "canonical": "#ffb000",
+        "tonalRamp": ["oklch(15% 0.17 77)", "oklch(25% 0.17 77)", "oklch(36% 0.17 77)", "oklch(48% 0.17 77)", "oklch(60% 0.17 77)", "oklch(72% 0.17 77)", "oklch(84% 0.13 77)", "oklch(95% 0.05 77)"]
+      },
+      "active-amber-hover": {
+        "role": "secondary",
+        "displayName": "Lit Amber",
+        "canonical": "#ffc33b",
+        "tonalRamp": ["oklch(15% 0.15 81)", "oklch(25% 0.15 81)", "oklch(36% 0.15 81)", "oklch(48% 0.15 81)", "oklch(60% 0.15 81)", "oklch(72% 0.15 81)", "oklch(84% 0.11 81)", "oklch(95% 0.04 81)"]
+      },
+      "status-green": {
+        "role": "tertiary",
+        "displayName": "Monitoring Green",
+        "canonical": "#53d391",
+        "tonalRamp": ["oklch(15% 0.14 153)", "oklch(25% 0.14 153)", "oklch(36% 0.14 153)", "oklch(48% 0.14 153)", "oklch(60% 0.14 153)", "oklch(72% 0.14 153)", "oklch(84% 0.1 153)", "oklch(95% 0.04 153)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Monumental Display", "purpose": "Hero claims and dominant instrument readouts." },
+      "headline": { "displayName": "Section Headline", "purpose": "Compressed uppercase declarations." },
+      "title": { "displayName": "Instrument Title", "purpose": "Console commands, locations, and compact product headings." },
+      "body": { "displayName": "Explanatory Body", "purpose": "Readable product explanation and caveats." },
+      "label": { "displayName": "Technical Label", "purpose": "Uppercase metadata, states, units, and proof captions." }
+    },
+    "shadows": [
+      { "name": "route-handset", "value": "0 22px 54px rgba(0,0,0,.34)", "purpose": "Lifts the compact phone readout above the route model." },
+      { "name": "product-device", "value": "0 36px 70px rgba(13,18,20,.34)", "purpose": "Separates the primary app screen from its signal-red stage." },
+      { "name": "privacy-device", "value": "0 28px 70px rgba(0,0,0,.3)", "purpose": "Gives the on-device processing core physical presence inside the orbit diagram." },
+      { "name": "monitoring-signal", "value": "0 2px 10px rgba(83,211,145,.38)", "purpose": "Adds a local glow only to the live monitoring dot." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "180ms ease-out", "purpose": "Navigation, disclosure, and primary-action state changes." },
+      { "name": "console-state", "value": "600ms cubic-bezier(.2,.8,.2,1)", "purpose": "Moves the route-test vehicle and collapses its active sweep." },
+      { "name": "route-dash", "value": "1.4s linear infinite", "purpose": "Advances the amber route projection toward the camera." },
+      { "name": "camera-range", "value": "2.6s ease-out infinite", "purpose": "Expands and fades the camera range ring." },
+      { "name": "approach-cycle", "value": "9000ms", "purpose": "Synchronizes the hero distance readout with vehicle movement." }
+    ],
+    "breakpoints": [
+      { "name": "wide", "value": "1120px" },
+      { "name": "stack", "value": "820px" },
+      { "name": "compact", "value": "540px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Launch Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The high-visibility launch action with a compact availability line.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><span>App Store launch</span><small>Canada · coming soon</small></a>",
+      "css": ".ds-btn-primary { display:inline-flex; min-width:224px; min-height:68px; padding:0 22px; flex-direction:column; align-items:flex-start; justify-content:center; background:var(--amber,#ffb000); color:var(--canvas,#0d1214); text-decoration:none; transition:background 180ms ease-out,transform 180ms ease-out; } .ds-btn-primary span { font:700 .93rem var(--body,Inter,sans-serif); } .ds-btn-primary small { margin-top:3px; font:400 .68rem var(--body,Inter,sans-serif); text-transform:uppercase; letter-spacing:.08em; } .ds-btn-primary:hover { background:#ffc33b; transform:translateY(-2px); } .ds-btn-primary:focus-visible { outline:3px solid var(--amber,#ffb000); outline-offset:4px; } .ds-btn-primary:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Underlined Text Action",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "A quiet secondary action set on a single bone rule.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">See the signal logic <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 2v12M3 9l5 5 5-5\" /></svg></a>",
+      "css": ".ds-text-link { display:inline-flex; align-items:center; gap:8px; width:max-content; padding:14px 0 8px; border-bottom:1px solid var(--line,rgba(244,240,229,.68)); color:var(--bone,#f4f0e5); font:700 .8rem var(--body,Inter,sans-serif); text-decoration:none; } .ds-text-link svg { width:14px; height:14px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:square; stroke-linejoin:miter; transition:transform 180ms ease-out; } .ds-text-link:hover svg { transform:translateY(3px); } .ds-text-link:focus-visible { outline:3px solid var(--amber,#ffb000); outline-offset:4px; } .ds-text-link:active { opacity:.72; }"
+    },
+    {
+      "name": "Monitoring Chip",
+      "kind": "chip",
+      "refersTo": "status-chip",
+      "description": "A compact capsule used only to confirm live GPS and background monitoring.",
+      "html": "<span class=\"ds-status-chip\"><i></i>Monitoring · GPS + background</span>",
+      "css": ".ds-status-chip { display:inline-flex; gap:8px; align-items:center; padding:9px 12px; border:1px solid var(--line,rgba(244,240,229,.68)); border-radius:999px; color:var(--bone,#f4f0e5); background:transparent; font:400 .58rem var(--body,Inter,sans-serif); text-transform:uppercase; letter-spacing:.04em; } .ds-status-chip i { width:7px; height:7px; border-radius:50%; background:var(--green,#53d391); box-shadow:0 2px 10px rgba(83,211,145,.38); }"
+    },
+    {
+      "name": "Site Navigation",
+      "kind": "nav",
+      "description": "A centered quiet-link navigation inside the ruled three-column header.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#\">How it works</a><a href=\"#\">Privacy</a><a href=\"#\">Coverage</a></nav>",
+      "css": ".ds-nav { display:flex; gap:34px; align-items:center; padding:24px 0; border-bottom:1px solid var(--line-muted,rgba(244,240,229,.16)); background:var(--canvas,#0d1214); } .ds-nav a { color:var(--bone-muted,#b9b4a8); font:400 .78rem var(--body,Inter,sans-serif); text-decoration:none; transition:color 180ms ease-out; } .ds-nav a:hover { color:var(--bone,#f4f0e5); } .ds-nav a:focus-visible { outline:3px solid var(--amber,#ffb000); outline-offset:4px; } .ds-nav a:active { color:var(--amber,#ffb000); }"
+    },
+    {
+      "name": "Vector Console Step",
+      "kind": "button",
+      "refersTo": "console-step",
+      "description": "A full-width route-evaluation stage that inverts when selected.",
+      "html": "<button class=\"ds-console-step\" type=\"button\"><span>Align</span><strong>Test the route vector</strong><small>Cameras behind you and most parallel-road passes are rejected.</small></button>",
+      "css": ".ds-console-step { appearance:none; width:100%; display:grid; grid-template-columns:90px 1fr; gap:8px 22px; padding:28px 32px; color:var(--bone,#f4f0e5); background:transparent; border:0; border-bottom:1px solid var(--line-muted,rgba(244,240,229,.16)); text-align:left; cursor:pointer; transition:background 200ms ease-out,color 200ms ease-out; } .ds-console-step>span { grid-row:1/3; padding-top:4px; color:var(--red,#f04432); font:700 .66rem var(--body,Inter,sans-serif); text-transform:uppercase; letter-spacing:.08em; } .ds-console-step strong { font:700 1.7rem/1 var(--display,Oswald,'Arial Narrow',sans-serif); text-transform:uppercase; } .ds-console-step small { max-width:43ch; color:currentColor; opacity:.66; font:400 .74rem/1.55 var(--body,Inter,sans-serif); } .ds-console-step:hover,.ds-console-step[aria-pressed=\"true\"] { background:var(--bone,#f4f0e5); color:var(--canvas,#0d1214); } .ds-console-step:focus-visible { outline:3px solid var(--amber,#ffb000); outline-offset:-5px; } .ds-console-step:active { background:var(--bone,#f4f0e5); color:var(--canvas,#0d1214); }"
+    },
+    {
+      "name": "Product Device",
+      "kind": "card",
+      "refersTo": "device-screen",
+      "description": "The nested on-device interface where live distance, location, and status become tactile.",
+      "html": "<article class=\"ds-device\"><header><strong>ROADCUE</strong><small>CANADA CAMERA ALERTS</small></header><div class=\"ds-device-status\"><i></i>MONITORING · GPS + BACKGROUND</div><div class=\"ds-device-distance\">337<small>m</small></div><div class=\"ds-device-location\">KINGSWAY &amp;<br>BOUNDARY ROAD</div><div class=\"ds-device-action\">STOP DRIVING</div></article>",
+      "css": ".ds-device { width:300px; min-height:500px; display:flex; flex-direction:column; padding:32px 26px 22px; border-radius:34px; background:var(--canvas,#0d1214); color:var(--bone,#f4f0e5); box-shadow:0 36px 70px rgba(13,18,20,.34); transform:rotate(-1.4deg); } .ds-device header { display:flex; flex-direction:column; } .ds-device header strong { font:700 2.4rem var(--display,Oswald,'Arial Narrow',sans-serif); } .ds-device header small { color:var(--bone-muted,#b9b4a8); font:400 .55rem var(--body,Inter,sans-serif); letter-spacing:.14em; } .ds-device-status { margin-top:22px; padding:14px; border:1px solid var(--line,rgba(244,240,229,.68)); border-radius:12px; font:700 .75rem var(--display,Oswald,'Arial Narrow',sans-serif); } .ds-device-status i { display:inline-block; width:9px; height:9px; margin-right:7px; border-radius:50%; background:var(--green,#53d391); } .ds-device-distance { margin-top:54px; padding-bottom:8px; border-bottom:4px solid var(--red,#f04432); font:700 6.2rem/.78 var(--display,Oswald,'Arial Narrow',sans-serif); } .ds-device-distance small { margin-left:5px; font-size:2rem; } .ds-device-location { padding-top:12px; font:700 1.45rem/1.05 var(--display,Oswald,'Arial Narrow',sans-serif); } .ds-device-action { margin-top:auto; padding:19px; background:var(--red,#f04432); color:var(--canvas,#0d1214); text-align:center; font:700 1.5rem var(--display,Oswald,'Arial Narrow',sans-serif); }"
+    },
+    {
+      "name": "Coverage Disclosure",
+      "kind": "custom",
+      "description": "A native disclosure row for precise product limitations.",
+      "html": "<details class=\"ds-disclosure\"><summary>What RoadCue does not claim <svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M2 8h12\"/><path d=\"M8 2v12\"/></svg></summary><p>Coverage depends on published sources and is not complete or live-updated everywhere.</p></details>",
+      "css": ".ds-disclosure { max-width:620px; color:var(--bone,#f4f0e5); border-bottom:1px solid var(--line,rgba(244,240,229,.68)); background:var(--canvas,#0d1214); } .ds-disclosure summary { display:flex; justify-content:space-between; align-items:center; padding:26px 0; cursor:pointer; list-style:none; font:700 .78rem var(--body,Inter,sans-serif); } .ds-disclosure summary::-webkit-details-marker { display:none; } .ds-disclosure svg { width:16px; height:16px; fill:none; stroke:var(--amber,#ffb000); stroke-width:1.5; } .ds-disclosure svg path:last-child { transition:opacity 180ms ease-out; } .ds-disclosure[open] svg path:last-child { opacity:0; } .ds-disclosure p { max-width:66ch; margin:0 0 28px; color:var(--bone-muted,#b9b4a8); font:400 .78rem/1.7 var(--body,Inter,sans-serif); } .ds-disclosure summary:focus-visible { outline:3px solid var(--amber,#ffb000); outline-offset:4px; }"
+    },
+    {
+      "name": "Approach Instrument",
+      "kind": "custom",
+      "description": "The signature distance-and-direction surface that makes the route test visible.",
+      "html": "<section class=\"ds-approach\"><div class=\"ds-readout\"><strong>337</strong><span>m</span><i></i><b>KINGSWAY &amp;<br>BOUNDARY ROAD</b><small>RED LIGHT + SPEED CAMERA</small></div><svg viewBox=\"0 0 280 360\" aria-label=\"Route approaching a camera\"><path class=\"ds-road\" d=\"M142 360 C138 276 140 170 160 0\"/><path class=\"ds-projection\" d=\"M143 292 C145 220 151 154 157 92\"/><circle class=\"ds-range\" cx=\"158\" cy=\"86\" r=\"32\"/><circle class=\"ds-camera\" cx=\"158\" cy=\"86\" r=\"9\"/></svg></section>",
+      "css": ".ds-approach { position:relative; width:520px; max-width:100%; min-height:360px; overflow:hidden; color:var(--bone,#f4f0e5); background-color:#0a0f11; background-image:linear-gradient(rgba(244,240,229,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(244,240,229,.04) 1px,transparent 1px); background-size:32px 32px; } .ds-approach svg { position:absolute; right:0; top:0; width:58%; height:100%; } .ds-road { fill:none; stroke:rgba(244,240,229,.18); stroke-width:22; } .ds-projection { fill:none; stroke:var(--amber,#ffb000); stroke-width:2; stroke-dasharray:5 9; animation:ds-route-dash 1.4s linear infinite; } .ds-range { fill:rgba(240,68,50,.07); stroke:rgba(240,68,50,.42); } .ds-camera { fill:var(--red,#f04432); } .ds-readout { position:absolute; z-index:2; left:24px; top:28px; width:220px; display:grid; grid-template-columns:auto 1fr; align-items:end; } .ds-readout strong { font:700 6.4rem/.8 var(--display,Oswald,'Arial Narrow',sans-serif); letter-spacing:-.04em; font-variant-numeric:tabular-nums; } .ds-readout>span { padding-left:8px; font:700 2rem/1 var(--display,Oswald,'Arial Narrow',sans-serif); } .ds-readout i { grid-column:1/-1; height:4px; margin:12px 0; background:var(--red,#f04432); } .ds-readout b { grid-column:1/-1; font:700 1.4rem/1.05 var(--display,Oswald,'Arial Narrow',sans-serif); } .ds-readout small { grid-column:1/-1; margin-top:9px; color:var(--red,#f04432); font:700 .56rem var(--body,Inter,sans-serif); letter-spacing:.07em; } @keyframes ds-route-dash { to { stroke-dashoffset:-28; } } @media (prefers-reduced-motion:reduce) { .ds-projection { animation:none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Approach Corridor",
+    "overview": "RoadCue is built as an engineered roadside instrument rather than a generic app-marketing surface. Matte charcoal fields, bone lettering, fine rules, vector paths, distance readouts, and signal geometry make direction and closing distance visible before the copy explains them. The atmosphere is calm and authoritative: technical enough to be credible, restrained enough to keep the warning legible.\n\nThe system is mostly flat and rectilinear. Contrast, scale, linework, and state color establish hierarchy; depth is reserved for device-shaped product surfaces nested inside the instrument field. The camera-location icon, route corridor, and signal arcs provide the recurring geometry. Police imagery, radar-gun motifs, generic map pins, gradient-led decoration, and fear-based visual drama are outside this world.",
+    "keyCharacteristics": [
+      "Matte charcoal fields with bone text and hairline engineering rules.",
+      "Oswald compression for commands and readouts; Inter for explanation.",
+      "Signal red marks camera hazards; amber is reserved for active intent and focus.",
+      "Direction, distance, and alignment graphics turn product logic into interface.",
+      "Flat layouts yield to soft depth only for nested device surfaces."
+    ],
+    "rules": [
+      { "name": "The Signal Hierarchy Rule", "body": "Red communicates camera hazard, amber communicates action or focus, and green communicates monitoring or completion; do not swap those meanings.", "section": "colors" },
+      { "name": "The Bone, Not White Rule", "body": "Use the warm bone neutral for principal light text and surfaces so the instrument remains calm rather than glaring.", "section": "colors" },
+      { "name": "The Instrument Compression Rule", "body": "Use Oswald wherever the interface must read like a command, sign, coordinate, or live measurement; use Inter for every sentence that explains what the product does.", "section": "typography" },
+      { "name": "The Number-Is-Structure Rule", "body": "Large tabular numerals are compositional anchors, not decorative statistics; preserve their alignment and terse unit labels.", "section": "typography" },
+      { "name": "The Corridor Rule", "body": "Give directional information a visible path through the composition: align major blocks to rules, tracks, or vertical movement instead of distributing them as unrelated cards.", "section": "layout" },
+      { "name": "The Instrument Deck Rule", "body": "Structural surfaces stay flat; shadow is reserved for nested device chassis, never for ordinary sections, rows, or calls to action.", "section": "elevation" },
+      { "name": "The Chassis Exception Rule", "body": "Round only objects that read as a device, contained status control, signal node, or product icon; keep the surrounding information architecture rectilinear.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do keep the page grounded in matte charcoal, bone lettering, and engineered one-pixel rules.",
+      "Do reserve signal red for camera and hazard meaning, active amber for action and focus, and green for monitoring status.",
+      "Do make direction or distance tangible through route lines, vector movement, tabular readouts, and alignment.",
+      "Do preserve the Oswald/Inter division between compressed instrument language and explanatory prose.",
+      "Do keep the exact RoadCue camera-location icon as the identity anchor.",
+      "Do preserve the stacked 820px layout and compact 540px opening composition."
+    ],
+    "donts": [
+      "Don't turn the system into a generic card grid, glassmorphic dashboard, or soft rounded app-marketing kit.",
+      "Don't use police imagery, radar guns, map-pin clutter, fear-based drama, or fabricated enforcement scenes.",
+      "Don't spread amber or green decoratively; their rarity makes their state meaning clear.",
+      "Don't add shadows to ordinary sections, rows, buttons, or navigation.",
+      "Don't replace the warm bone neutral with stark white or introduce unrelated accent colors.",
+      "Don't animate route movement without honoring `prefers-reduced-motion`."
+    ]
+  }
+}
