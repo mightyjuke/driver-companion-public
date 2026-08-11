@@ -12,6 +12,9 @@
     <meta name="color-scheme" content="dark" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://www.roadcue.ca/support/" />
+    <link rel="alternate" hreflang="en-CA" href="https://www.roadcue.ca/support/" />
+    <link rel="alternate" hreflang="fr-CA" href="https://www.roadcue.ca/fr/support/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.roadcue.ca/support/" />
     <link rel="icon" href="../assets/roadcue-icon-192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="../assets/roadcue-icon-192.png" />
     <link rel="manifest" href="../site.webmanifest" />
@@ -22,6 +25,7 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_CA" />
+    <meta property="og:locale:alternate" content="fr_CA" />
     <meta property="og:site_name" content="RoadCue" />
     <meta property="og:title" content="RoadCue Support" />
     <meta
@@ -43,6 +47,7 @@
         "@context": "https://schema.org",
         "@type": "ContactPage",
         "name": "RoadCue Support",
+        "inLanguage": "en-CA",
         "url": "https://www.roadcue.ca/support/",
         "description": "Support and troubleshooting for RoadCue 1.2.0.",
         "isPartOf": {
@@ -75,10 +80,13 @@
         <a href="../#coverage">Coverage</a>
         <a href="./" aria-current="page">Support</a>
       </nav>
-      <a class="header-cta" href="mailto:support@roadcue.ca?subject=RoadCue%201.2.0%20support">
-        Email support
-        <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" /></svg>
-      </a>
+      <div class="header-actions">
+        <a class="locale-link" href="../fr/support/" lang="fr-CA" hreflang="fr-CA">FR</a>
+        <a class="header-cta" href="mailto:support@roadcue.ca?subject=RoadCue%201.2.0%20support">
+          <span>Email support</span>
+          <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" /></svg>
+        </a>
+      </div>
     </header>
 
     <main id="support-main">
@@ -270,7 +278,7 @@
     <footer class="site-footer">
       <a class="brand" href="../"><img src="../assets/roadcue-icon-192.png" width="32" height="32" alt="" /><span>ROADCUE</span></a>
       <p>Support for RoadCue 1.2.0.</p>
-      <div><a href="../">Home</a><a href="../#privacy">Privacy</a><a href="../#coverage">Coverage</a><span>© <span data-year></span> RoadCue</span></div>
+      <div><a href="../fr/support/" lang="fr-CA" hreflang="fr-CA">Français</a><a href="../">Home</a><a href="../#privacy">Privacy</a><a href="../#coverage">Coverage</a><span>© <span data-year></span> RoadCue</span></div>
     </footer>
 
     <script src="../script.js" defer></script>

@@ -12,6 +12,9 @@
     <meta name="color-scheme" content="dark" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://www.roadcue.ca/" />
+    <link rel="alternate" hreflang="en-CA" href="https://www.roadcue.ca/" />
+    <link rel="alternate" hreflang="fr-CA" href="https://www.roadcue.ca/fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.roadcue.ca/" />
     <link rel="icon" href="assets/roadcue-icon-192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="assets/roadcue-icon-192.png" />
     <link rel="manifest" href="site.webmanifest" />
@@ -21,6 +24,7 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_CA" />
+    <meta property="og:locale:alternate" content="fr_CA" />
     <meta property="og:site_name" content="RoadCue" />
     <meta property="og:title" content="RoadCue — Know what’s ahead. Ignore what’s behind." />
     <meta
@@ -48,6 +52,7 @@
         "alternateName": "RoadCue Canada: Camera Alerts",
         "applicationCategory": "NavigationApplication",
         "operatingSystem": "iOS, Android",
+        "inLanguage": "en-CA",
         "description": "A direction-aware red-light and speed-camera warning companion for Canadian drivers.",
         "url": "https://www.roadcue.ca/",
         "image": "https://www.roadcue.ca/assets/roadcue-icon-512.png",
@@ -83,7 +88,10 @@
         <a href="#coverage">Coverage</a>
         <a href="support/">Support</a>
       </nav>
-      <a class="header-cta" href="#launch">Get RoadCue <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3h10v10M13 3 3 13" /></svg></a>
+      <div class="header-actions">
+        <a class="locale-link" href="fr/" lang="fr-CA" hreflang="fr-CA">FR</a>
+        <a class="header-cta" href="#launch"><span>Get RoadCue</span> <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3h10v10M13 3 3 13" /></svg></a>
+      </div>
     </header>
 
     <main id="main">
@@ -305,7 +313,7 @@
     <footer class="site-footer">
       <a class="brand" href="#top"><img src="assets/roadcue-icon-192.png" width="32" height="32" alt="" /><span>ROADCUE</span></a>
       <p>Quiet camera awareness for Canadian roads.</p>
-      <div><a href="#privacy">Privacy</a><a href="#coverage">Coverage</a><a href="support/">Support</a><span>© <span data-year></span> RoadCue</span></div>
+      <div><a href="fr/" lang="fr-CA" hreflang="fr-CA">Français</a><a href="#privacy">Privacy</a><a href="#coverage">Coverage</a><a href="support/">Support</a><span>© <span data-year></span> RoadCue</span></div>
     </footer>
 
     <script src="script.js" defer></script>
