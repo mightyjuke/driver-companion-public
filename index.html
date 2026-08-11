@@ -20,7 +20,7 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="preload" href="assets/oswald-700.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="assets/inter-regular.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260811" />
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_CA" />
@@ -89,8 +89,11 @@
         <a href="support/">Support</a>
       </nav>
       <div class="header-actions">
-        <a class="locale-link" href="fr/" lang="fr-CA" hreflang="fr-CA">FR</a>
-        <a class="header-cta" href="#launch"><span>Get RoadCue</span> <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3h10v10M13 3 3 13" /></svg></a>
+        <nav class="locale-switch" aria-label="Language">
+          <a href="./" lang="en-CA" hreflang="en-CA" aria-current="page">EN</a>
+          <a href="fr/" lang="fr-CA" hreflang="fr-CA">FR</a>
+        </nav>
+        <a class="header-cta" href="#launch" aria-label="Get RoadCue"><span>Get RoadCue</span> <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3h10v10M13 3 3 13" /></svg></a>
       </div>
     </header>
 
@@ -316,6 +319,6 @@
       <div><a href="fr/" lang="fr-CA" hreflang="fr-CA">Français</a><a href="#privacy">Privacy</a><a href="#coverage">Coverage</a><a href="support/">Support</a><span>© <span data-year></span> RoadCue</span></div>
     </footer>
 
-    <script src="script.js" defer></script>
+    <script src="script.js?v=20260811" defer></script>
   </body>
 </html>

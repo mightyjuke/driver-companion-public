@@ -20,8 +20,8 @@
     <link rel="manifest" href="../site.webmanifest" />
     <link rel="preload" href="../assets/oswald-700.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="../assets/inter-regular.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="support.css" />
+    <link rel="stylesheet" href="../styles.css?v=20260811" />
+    <link rel="stylesheet" href="support.css?v=20260811" />
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_CA" />
@@ -81,8 +81,11 @@
         <a href="./" aria-current="page">Support</a>
       </nav>
       <div class="header-actions">
-        <a class="locale-link" href="../fr/support/" lang="fr-CA" hreflang="fr-CA">FR</a>
-        <a class="header-cta" href="mailto:support@roadcue.ca?subject=RoadCue%201.2.0%20support">
+        <nav class="locale-switch" aria-label="Language">
+          <a href="./" lang="en-CA" hreflang="en-CA" aria-current="page">EN</a>
+          <a href="../fr/support/" lang="fr-CA" hreflang="fr-CA">FR</a>
+        </nav>
+        <a class="header-cta" href="mailto:support@roadcue.ca?subject=RoadCue%201.2.0%20support" aria-label="Email RoadCue support">
           <span>Email support</span>
           <svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M5 3h8v8" /></svg>
         </a>
@@ -281,6 +284,6 @@
       <div><a href="../fr/support/" lang="fr-CA" hreflang="fr-CA">Français</a><a href="../">Home</a><a href="../#privacy">Privacy</a><a href="../#coverage">Coverage</a><span>© <span data-year></span> RoadCue</span></div>
     </footer>
 
-    <script src="../script.js" defer></script>
+    <script src="../script.js?v=20260811" defer></script>
   </body>
 </html>
