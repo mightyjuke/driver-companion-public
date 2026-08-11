@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mightyjuke.github.io/driver-companion-public/sitemap.xml
+Sitemap: https://www.roadcue.ca/sitemap.xml

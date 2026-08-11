@@ -172,9 +172,9 @@ The palette behaves like a night-driving instrument panel: low-reflectance charc
 
 ## Layout
 
-The page uses a centered fluid frame capped at 1440px, with 32px side gutters at full desktop width, 20px below 1120px, 16px below 820px, and 12px below 540px. Desktop sections favor asymmetric two-column grids divided by one-pixel rules: claim beside route instrument, console track beside steps, app stage beside explanation, and coverage numeral beside caveats. Section spacing is intentionally expansive, commonly 110–170px vertically, while component interiors use an 8/12/18/22/32px rhythm.
+The page uses a centered fluid frame capped at 1440px, with 32px side gutters at full desktop width, 20px below 1120px, and 16px at tablet and phone widths. Desktop sections favor asymmetric two-column grids divided by one-pixel rules: claim beside route instrument, console track beside steps, app stage beside explanation, and coverage numeral beside caveats. Section spacing is intentionally expansive, commonly 110–170px vertically on desktop, while component interiors use an 8/12/18/22/32px rhythm.
 
-At 820px, two-column systems stack, navigation links disappear, sticky content becomes static, and device stages expand to the viewport width. At 540px, the first viewport is explicitly compressed: claim, launch action, proof statistics, and a 238px illustrative route model remain visible as one continuous opening. Full-bleed visual stages extend 12px past the mobile frame, while copy and controls retain the gutter.
+At 820px, two-column systems stack, navigation links disappear, sticky content becomes static, and vertical spacing contracts. At 540px, the first viewport becomes a compact narrative: claim, launch action, proof statistics, and a 218px illustrative route model remain one continuous opening. Product visuals stay inside the 16px phone frame instead of extending beyond it; the app screen, vector console, privacy orbit, coverage numeral, and language list all use phone-specific composition and density rather than scaled desktop dimensions.
 
 **The Corridor Rule.** Give directional information a visible path through the composition: align major blocks to rules, tracks, or vertical movement instead of distributing them as unrelated cards.
 

@@ -183,6 +183,7 @@
       { "name": "The Instrument Compression Rule", "body": "Use Oswald wherever the interface must read like a command, sign, coordinate, or live measurement; use Inter for every sentence that explains what the product does.", "section": "typography" },
       { "name": "The Number-Is-Structure Rule", "body": "Large tabular numerals are compositional anchors, not decorative statistics; preserve their alignment and terse unit labels.", "section": "typography" },
       { "name": "The Corridor Rule", "body": "Give directional information a visible path through the composition: align major blocks to rules, tracks, or vertical movement instead of distributing them as unrelated cards.", "section": "layout" },
+      { "name": "The Phone Frame Rule", "body": "Below 540px, recompose instruments for the phone frame: contain major visuals inside a 16px gutter, shorten vertical stages, and wrap repeated labels into readable grids instead of scaling or clipping desktop layouts.", "section": "layout" },
       { "name": "The Instrument Deck Rule", "body": "Structural surfaces stay flat; shadow is reserved for nested device chassis, never for ordinary sections, rows, or calls to action.", "section": "elevation" },
       { "name": "The Chassis Exception Rule", "body": "Round only objects that read as a device, contained status control, signal node, or product icon; keep the surrounding information architecture rectilinear.", "section": "shapes" }
     ],
@@ -192,7 +193,7 @@
       "Do make direction or distance tangible through route lines, vector movement, tabular readouts, and alignment.",
       "Do preserve the Oswald/Inter division between compressed instrument language and explanatory prose.",
       "Do keep the exact RoadCue camera-location icon as the identity anchor.",
-      "Do preserve the stacked 820px layout and compact 540px opening composition."
+      "Do preserve the stacked 820px layout and the contained, phone-specific 540px composition."
     ],
     "donts": [
       "Don't turn the system into a generic card grid, glassmorphic dashboard, or soft rounded app-marketing kit.",
