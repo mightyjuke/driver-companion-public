@@ -16,6 +16,6 @@ In the GitHub repository settings, set **Pages → Build and deployment → Sour
 
 ## Launch checklist
 
-- Replace the pending App Store state with the verified product-page URL when the listing is live.
+- Replace the pending App Store and Google Play states with their verified product-page URLs when the listings are live.
 - Recheck camera-record counts when the bundled source snapshot changes.
 - Update canonical, Open Graph, sitemap, and structured-data URLs if a custom domain is attached.

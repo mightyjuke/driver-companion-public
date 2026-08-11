@@ -209,6 +209,7 @@ Rounded forms are semantic exceptions: compact status fields use 7–12px corner
 - **Primary:** Active amber on matte charcoal with 22px horizontal padding, a 68px desktop minimum height, a bold action line, and a compact uppercase availability line beneath it.
 - **Hover / Focus:** Hover shifts to lit amber and lifts 2px over 180ms; keyboard focus uses a 3px amber outline offset by 4px. Reduced-motion preference collapses transitions.
 - **Secondary / Ghost:** Text actions remain transparent and use a one-pixel bone underline or a full one-pixel bone border; hover may invert to bone on charcoal.
+- **Store availability:** App Store and Google Play states appear as equal bone instrument blocks in a two-column group, stacking on narrow phones. Keep both platforms at equal visual weight and replace each pending block with its verified store link only when that listing is live.
 
 ### Chips
 

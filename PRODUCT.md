@@ -34,7 +34,7 @@ Drivers start a single driving mode, grant precise location access, and receive 
 - No account, advertising, analytics, subscription, or remote detection service.
 - RoadCue uses a location database; it does not detect radar signals, guarantee every camera is listed, or replace posted signs and traffic laws.
 - It is not a government app. Coverage depends on what provinces and municipalities publish and is not updated live on the device.
-- The App Store product URL and public release date are not yet present in the repository and must not be fabricated.
+- The App Store and Google Play product URLs and public release date are not yet present in the repository and must not be fabricated.
 
 ## Brand Commitments
 
@@ -47,7 +47,7 @@ The product name is RoadCue. Preserve the current camera-location signal icon an
 - Retained app icon source: `/Users/kevin/Documents/GitHub/driver-companion/assets/icon-roadcue-source.png`
 - Marketing and claim guardrails: `/Users/kevin/Documents/GitHub/driver-companion/APP_STORE_MARKETING.md`
 - Camera source and limitations documentation: `/Users/kevin/Documents/GitHub/driver-companion/README.md`
-- No testimonials, customer logos, ratings, press, pricing, or App Store URL are available and none may be invented.
+- No testimonials, customer logos, ratings, press, pricing, App Store URL, or Google Play URL are available and none may be invented.
 
 ## Product Principles
 

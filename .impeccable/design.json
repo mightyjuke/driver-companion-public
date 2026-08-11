@@ -102,9 +102,16 @@
       "name": "Primary Launch Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The high-visibility launch action with a compact availability line.",
-      "html": "<a class=\"ds-btn-primary\" href=\"#\"><span>App Store launch</span><small>Canada · coming soon</small></a>",
+      "description": "The high-visibility cross-platform launch action with a compact availability line.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><span>iOS + Android launch</span><small>Canada · coming soon</small></a>",
       "css": ".ds-btn-primary { display:inline-flex; min-width:224px; min-height:68px; padding:0 22px; flex-direction:column; align-items:flex-start; justify-content:center; background:var(--amber,#ffb000); color:var(--canvas,#0d1214); text-decoration:none; transition:background 180ms ease-out,transform 180ms ease-out; } .ds-btn-primary span { font:700 .93rem var(--body,Inter,sans-serif); } .ds-btn-primary small { margin-top:3px; font:400 .68rem var(--body,Inter,sans-serif); text-transform:uppercase; letter-spacing:.08em; } .ds-btn-primary:hover { background:#ffc33b; transform:translateY(-2px); } .ds-btn-primary:focus-visible { outline:3px solid var(--amber,#ffb000); outline-offset:4px; } .ds-btn-primary:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Store Availability Group",
+      "kind": "custom",
+      "description": "Equal pending states for the App Store and Google Play, replaced individually with verified links when each listing is live.",
+      "html": "<div class=\"ds-stores\"><span><small>COMING SOON TO THE</small>App Store</span><span><small>COMING SOON TO</small>Google Play</span></div>",
+      "css": ".ds-stores { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; } .ds-stores>span { min-height:92px; display:flex; flex-direction:column; justify-content:center; padding:18px; background:var(--bone,#f4f0e5); color:var(--canvas,#0d1214); font:700 1.2rem/1 var(--display,Oswald,'Arial Narrow',sans-serif); white-space:nowrap; } .ds-stores small { margin-bottom:4px; font:400 .52rem var(--body,Inter,sans-serif); letter-spacing:.08em; } @media(max-width:540px){.ds-stores{grid-template-columns:1fr;}}"
     },
     {
       "name": "Underlined Text Action",

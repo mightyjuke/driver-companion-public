@@ -237,9 +237,11 @@ details p { margin: 0 0 28px; color: var(--bone-muted); font-size: .78rem; line-
 .launch h2 { color: var(--red); }
 .launch p { margin-top: 30px; }
 .launch-actions { display: flex; flex-direction: column; align-items: stretch; gap: 14px; }
-.launch-pending { min-height: 92px; background: var(--bone); color: var(--canvas); padding: 18px 24px; display: flex; align-items: center; justify-content: center; gap: 12px; }
+.launch-platforms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.launch-pending { min-height: 92px; background: var(--bone); color: var(--canvas); padding: 18px; display: flex; align-items: center; justify-content: flex-start; gap: 11px; }
 .launch-pending svg { width: 31px; height: 31px; fill: currentColor; }
-.launch-pending > span { font-family: var(--display); font-size: 1.45rem; line-height: 1; }
+.launch-pending svg.play-icon { fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: miter; }
+.launch-pending > span { font-family: var(--display); font-size: 1.2rem; line-height: 1; white-space: nowrap; }
 .launch-pending small { display: block; font-family: var(--body); font-size: .52rem; letter-spacing: .08em; margin-bottom: 4px; }
 .github-link { min-height: 58px; border: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; padding: 0 20px; text-decoration: none; font-size: .78rem; transition: background 180ms ease-out, color 180ms ease-out; }
 .github-link:hover { background: var(--bone); color: var(--canvas); }
@@ -327,6 +329,7 @@ details p { margin: 0 0 28px; color: var(--bone-muted); font-size: .78rem; line-
   .distance-readout strong { font-size: .95rem; }
   .distance-readout small { margin-top: 5px; font-size: .42rem; }
   .phone-readout, .status-chip { display: none; }
+  .launch-platforms { grid-template-columns: 1fr; }
   .section-heading h2, .companion h2, .privacy h2, .coverage h2, .languages h2, .launch h2 { font-size: clamp(3.45rem, 16.5vw, 5rem); }
   .console-step { grid-template-columns: 66px 1fr; padding: 22px 16px; gap: 8px 12px; }
   .console-step strong { font-size: 1.32rem; }
