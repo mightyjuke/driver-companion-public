@@ -252,11 +252,14 @@ details p { margin: 0 0 28px; color: var(--bone-muted); font-size: .78rem; line-
 .launch p { margin-top: 30px; }
 .launch-actions { display: flex; flex-direction: column; align-items: stretch; gap: 14px; }
 .launch-platforms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.launch-pending { min-height: 92px; background: var(--bone); color: var(--canvas); padding: 18px; display: flex; align-items: center; justify-content: flex-start; gap: 11px; }
-.launch-pending svg { width: 31px; height: 31px; fill: currentColor; }
-.launch-pending svg.play-icon { fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: miter; }
-.launch-pending > span { font-family: var(--display); font-size: 1.2rem; line-height: 1; white-space: nowrap; }
-.launch-pending small { display: block; font-family: var(--body); font-size: .52rem; letter-spacing: .08em; margin-bottom: 4px; }
+.launch-platform { min-height: 92px; padding: 18px; display: flex; align-items: center; justify-content: flex-start; gap: 11px; }
+.launch-platform svg { width: 31px; height: 31px; flex: 0 0 auto; fill: currentColor; }
+.launch-platform svg.play-icon { fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: miter; }
+.launch-platform > span { font-family: var(--display); font-size: 1.2rem; line-height: 1; white-space: nowrap; }
+.launch-platform small { display: block; font-family: var(--body); font-size: .52rem; letter-spacing: .08em; margin-bottom: 4px; }
+.launch-live { background: var(--red); color: var(--bone); text-decoration: none; transition: background 180ms ease-out, color 180ms ease-out; }
+.launch-live:hover { background: var(--amber); color: var(--canvas); }
+.launch-pending { background: var(--bone); color: var(--canvas); }
 .github-link { min-height: 58px; border: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; padding: 0 20px; text-decoration: none; font-size: .78rem; transition: background 180ms ease-out, color 180ms ease-out; }
 .github-link:hover { background: var(--bone); color: var(--canvas); }
 .site-footer { width: var(--page); min-height: 150px; margin: 0 auto; border-top: 1px solid var(--line-muted); display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; font-size: .68rem; color: var(--bone-muted); }
@@ -414,7 +417,7 @@ details p { margin: 0 0 28px; color: var(--bone-muted); font-size: .78rem; line-
   .launch { padding: 72px 0; gap: 40px; }
   .launch p { margin-top: 24px; }
   .launch-platforms { grid-template-columns: 1fr; }
-  .launch-pending { min-height: 78px; }
+  .launch-platform { min-height: 78px; }
   .site-footer { padding-bottom: calc(34px + env(safe-area-inset-bottom)); }
 }
 
