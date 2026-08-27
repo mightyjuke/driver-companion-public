@@ -2,6 +2,12 @@
 
 Static marketing website for RoadCue, built for GitHub Pages.
 
+## RoadCue links
+
+- [Download RoadCue on the App Store](https://apps.apple.com/app/apple-store/id6799356397?pt=119288745&ct=github_readme_launch&mt=8)
+- [Read the RoadCue launch story on Medium](https://medium.com/@kevinmok/meet-roadcue-direction-aware-camera-alerts-for-canadian-drivers-889148ebf2de)
+- [Visit the RoadCue website](https://www.roadcue.ca/)
+
 ## Preview locally
 
 ```bash
