@@ -9,6 +9,13 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.roadcue.ca/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.roadcue.ca/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.roadcue.ca/privacy/" />
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.roadcue.ca/support/</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.roadcue.ca/support/" />
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.roadcue.ca/fr/support/" />
