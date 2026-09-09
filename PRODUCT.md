@@ -24,12 +24,13 @@ RoadCue is the quiet, privacy-friendly camera-warning companion built to work be
 
 ## Operating Context
 
-Drivers start a single driving mode, grant precise location access, and receive background voice or sound warnings during a trip. The app shows live speed, heading, the nearest relevant camera, and monitoring status. It supports English, French, Punjabi, Simplified Chinese, Traditional Chinese, Spanish, Tagalog, Arabic, and Hindi.
+Drivers can start a single driving mode manually or enable optional Automatic Protection. With Always location access, Automatic Protection begins after sustained driving and stops after 10 continuous stationary minutes. The app requires no destination, active route, or screen overlay, and can provide background voice or sound warnings while another driving app remains in front. It shows live speed, heading, the nearest relevant camera, and monitoring status. It supports English, French, Punjabi, Simplified Chinese, Traditional Chinese, Spanish, Tagalog, Arabic, and Hindi.
 
 ## Capabilities and Constraints
 
 - Direction-aware alerts for listed red-light, speed, and combined-camera locations.
 - Background audio and voice warnings, with a crossing confirmation after the camera is passed.
+- Optional Automatic Protection that starts after sustained driving and stops after 10 continuous stationary minutes; it requires Always location access and may use more battery.
 - A reviewed, build-time snapshot of official Canadian sources containing 914 records in the current repository.
 - No account, advertising, analytics, subscription, or remote detection service.
 - RoadCue uses a location database; it does not detect radar signals, guarantee every camera is listed, or replace posted signs and traffic laws.
